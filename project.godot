@@ -11,8 +11,10 @@ config_version=5
 [application]
 
 config/name="Basic Animations"
+run/main_scene="res://S1 - Hand Waver/S1 Hand Waver.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://GlobalRs/Personal Icon.png"
+boot_splash/image="res://GlobalRs/HFcode.png"
 
 [rendering]
 

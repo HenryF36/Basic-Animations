@@ -1,5 +1,18 @@
-[gd_scene format=3 uid="uid://i8g56fd6d0fs"]
+[gd_scene load_steps=3 format=3 uid="uid://i8g56fd6d0fs"]
+
+[sub_resource type="Animation" id="Animation_jlt5s"]
+resource_name = "Scene"
+length = 120.0
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xokyh"]
+_data = {
+"Scene": SubResource("Animation_jlt5s")
+}
 
 [node name="Node3D" type="Node3D"]
 
 [node name="Hand Waver" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_xokyh")
+}
+autoplay = "Scene"
