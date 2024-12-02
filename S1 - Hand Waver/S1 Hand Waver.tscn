@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://i8g56fd6d0fs"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Hand Waver" type="AnimationPlayer" parent="."]
