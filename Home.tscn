@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dn26qvxke4a6c"]
+
+[node name="Home" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1158.0
+offset_bottom = 707.0
+color = Color(0.0588235, 0.454902, 1, 1)
+
+[node name="Welcome" type="Label" parent="."]
+offset_left = 188.0
+offset_top = 16.0
+offset_right = 416.0
+offset_bottom = 70.0
+scale = Vector2(3.6, 3.72)
+text = "Welcome to Basic Animations
+ with Godot"
+horizontal_alignment = 1
+vertical_alignment = 1
