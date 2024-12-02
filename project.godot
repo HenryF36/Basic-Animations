@@ -16,6 +16,10 @@ config/features=PackedStringArray("4.3", "Mobile")
 boot_splash/image="res://GlobalRs/HFcode.png"
 config/icon="res://GlobalRs/Personal Icon.png"
 
+[display]
+
+window/size/mode=2
+
 [dotnet]
 
 project/assembly_name="Basic Animations"
