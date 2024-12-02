@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://i8g56fd6d0fs"]
+[gd_scene load_steps=7 format=3 uid="uid://i8g56fd6d0fs"]
 
 [ext_resource type="Material" uid="uid://c8df531kngfyq" path="res://S1 - Hand Waver/Floor.tres" id="1_25ot0"]
+[ext_resource type="PackedScene" uid="uid://x0ukn3rolvy4" path="res://Person.tscn" id="2_4m683"]
 
 [sub_resource type="Animation" id="Animation_jlt5s"]
 resource_name = "Scene"
@@ -32,3 +33,6 @@ mesh = SubResource("BoxMesh_yc7hv")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Floor"]
 shape = SubResource("BoxShape3D_cq6ba")
+
+[node name="Person" parent="." instance=ExtResource("2_4m683")]
+transform = Transform3D(0.485726, 0, 0, 0, 0.583187, 0, 0, 0, 0.50194, 0, 0.0443712, 0)
